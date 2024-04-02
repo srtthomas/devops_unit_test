@@ -57,4 +57,24 @@ public class RomanNumeralsKataTests {
     void RomanNumeralKata50() {
         assertEquals("L", RomanNumeralsKata.convert(50));
     }
+    @Test
+    void RomanNumeralKata100() {
+        assertEquals("C", RomanNumeralsKata.convert(100));
+    }
+    @Test
+    void RomanNumeralKata500() {
+        assertEquals("D", RomanNumeralsKata.convert(500));
+    }
+    @Test
+    void RomanNumeralKata1000() {
+        assertEquals("M", RomanNumeralsKata.convert(1000));
+    }
+    @Test
+    void RomanNumeralKata3411() {
+        assertEquals("MMMCDXI", RomanNumeralsKata.convert(3411));
+    }
+    @Test
+    void RomanNumeralKata0() {
+        assertEquals("0 is not a roman number", RomanNumeralsKata.convert(0));
+    }
 }
