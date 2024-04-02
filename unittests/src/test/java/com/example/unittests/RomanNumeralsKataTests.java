@@ -49,4 +49,12 @@ public class RomanNumeralsKataTests {
     void RomanNumeralKata10() {
         assertEquals("X", RomanNumeralsKata.convert(10));
     }
+    @Test
+    void RomanNumeralKata25() {
+        assertEquals("XXV", RomanNumeralsKata.convert(25));
+    }
+    @Test
+    void RomanNumeralKata50() {
+        assertEquals("L", RomanNumeralsKata.convert(50));
+    }
 }
