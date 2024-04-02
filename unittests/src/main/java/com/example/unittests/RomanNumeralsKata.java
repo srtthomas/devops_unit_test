@@ -3,8 +3,8 @@ package com.example.unittests;
 public class RomanNumeralsKata {
 
     public static String convert(int number) {
-        int[] values = {1};
-        String[] symbols = {"I"};
+        int[] values = {5,4,1};
+        String[] symbols = {"V","IV","I"};
 
         StringBuilder roman = new StringBuilder();
 

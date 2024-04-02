@@ -24,4 +24,17 @@ public class RomanNumeralsKataTests {
     void RomanNumeralKata4() {
         assertEquals("IV", RomanNumeralsKata.convert(4));
     }
+
+    @Test
+    void RomanNumeralKata5() {
+        assertEquals("V", RomanNumeralsKata.convert(5));
+    }
+    @Test
+    void RomanNumeralKata6() {
+        assertEquals("V", RomanNumeralsKata.convert(6));
+    }
+    @Test
+    void RomanNumeralKata7() {
+        assertEquals("V", RomanNumeralsKata.convert(7));
+    }
 }
