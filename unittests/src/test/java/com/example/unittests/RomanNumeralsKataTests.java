@@ -31,10 +31,22 @@ public class RomanNumeralsKataTests {
     }
     @Test
     void RomanNumeralKata6() {
-        assertEquals("V", RomanNumeralsKata.convert(6));
+        assertEquals("VI", RomanNumeralsKata.convert(6));
     }
     @Test
     void RomanNumeralKata7() {
-        assertEquals("V", RomanNumeralsKata.convert(7));
+        assertEquals("VII", RomanNumeralsKata.convert(7));
+    }
+    @Test
+    void RomanNumeralKata8() {
+        assertEquals("VIII", RomanNumeralsKata.convert(8));
+    }
+    @Test
+    void RomanNumeralKata9() {
+        assertEquals("IX", RomanNumeralsKata.convert(9));
+    }
+    @Test
+    void RomanNumeralKata10() {
+        assertEquals("X", RomanNumeralsKata.convert(10));
     }
 }
