@@ -6,8 +6,9 @@ public class RomanNumeralsKata {
 
         if (number == 1) {
             return "I";
+        } else if (number == 2) {
+            return "II";
         }
-
         return "";
     }
 

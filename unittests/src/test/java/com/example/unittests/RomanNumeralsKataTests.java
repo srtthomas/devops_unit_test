@@ -12,9 +12,13 @@ public class RomanNumeralsKataTests {
     }
 
     @Test
-    void RomanNumeralKata2(){
-    assertEquals("II", RomanNumeralsKata.convert(2));
+    void RomanNumeralKata2() {
+        assertEquals("II", RomanNumeralsKata.convert(2));
 
-}
+    }
 
+    @Test
+    void RomanNumeralKata3() {
+        assertEquals("III", RomanNumeralsKata.convert(3));
+    }
 }
